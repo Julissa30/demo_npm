@@ -4,8 +4,8 @@
   "description": "Pryecto video club",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "node app.js"
+    "test": "mocha",
+    "dev": "supervisor app.js"
   },
   "keywords": [
     "video-club",
@@ -17,5 +17,8 @@
   "license": "ISC",
   "dependencies": {
     "log4js": "^6.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
   }
 }
